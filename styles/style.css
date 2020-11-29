@@ -317,6 +317,8 @@
 .footer__column-links {
   padding-top: 20px;
   padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column-link {
@@ -345,11 +347,6 @@
 
 .footer__social-icon_type_instagram {
   background-image: url(../images/instagram_color_white.svg);
-}
-
-.footer__column-links {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column_content_copyright {
