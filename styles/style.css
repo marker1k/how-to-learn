@@ -38,7 +38,6 @@
   position: relative;
   left: 64px;
   align-self: center;
-  z-index: 3;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
@@ -49,7 +48,6 @@
   position: absolute;
   left: 64px;
   bottom: 30px;
-  z-index: 3;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -74,7 +72,7 @@
   bottom: 0;
   background-image: url(../images/header-image.png);
   background-size: cover;
-  z-index: 1;
+  z-index: -1;
 }
 
 .header__square-pic {
@@ -84,7 +82,7 @@
   top: 64px;
   right: 0;
   background-color:  #2f80ed;
-  z-index: -1;
+  z-index: -2;
 }
 
 .description {
