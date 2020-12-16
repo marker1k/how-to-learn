@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Mark Polovtsev">
-  <meta name="description" content="Первая работа в курсе веб-разработки Яндекс.Практикума">
+  <meta name="description" content="Вторая работа в курсе веб-разработки Яндекс.Практикума">
   <meta name="keywords" content="HTML5, CSS, Яндекс.Практикум">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
@@ -18,7 +18,7 @@
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a class="header__link" href="#" target="_blank">Узнать &rarr;</a>
       </p>
-      <div class="header__main-illustration"></div>
+      <img class="header__main-illustration" src="./images/header/header-image.png" alt="Изображение картины художника Фёдора Решетникова 'Опять Двойка'"></img>
       <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
@@ -69,12 +69,8 @@
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -199,12 +195,12 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <a class="resources__logo resources__logo_type_arzamas" href="#" target="_blank"></a>
-          <a class="resources__logo resources__logo_type_n1" href="#" target="_blank"></a>
-          <a class="resources__logo resources__logo_type_polka" href="#" target="_blank"></a>
-          <a class="resources__logo resources__logo_type_strelka" href="#" target="_blank"></a>
-        </div>
+        <ul class="resources__logo-zone">
+          <a href="#" target="_blank"><li class="resources__logo resources__logo_type_arzamas"></li></a>
+          <a href="#" target="_blank"><li class="resources__logo resources__logo_type_n1"></li></a>
+          <a href="#" target="_blank"><li class="resources__logo resources__logo_type_strelka"></li></a>
+          <a href="#" target="_blank"><li class="resources__logo resources__logo_type_polka"></li></a>
+        </ul>
       </section>
 
     </main>
