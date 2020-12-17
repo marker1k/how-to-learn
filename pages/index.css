@@ -80,10 +80,7 @@
 @import url("../blocks/resources/resources.css");
 @import url("../blocks/resources/__logo-zone/resources__logo-zone.css");
 @import url("../blocks/resources/__logo/resources__logo.css");
-@import url("../blocks/resources/__logo/_type/resources__logo_type_arzamas.css");
-@import url("../blocks/resources/__logo/_type/resources__logo_type_n1.css");
-@import url("../blocks/resources/__logo/_type/resources__logo_type_polka.css");
-@import url("../blocks/resources/__logo/_type/resources__logo_type_strelka.css");
+@import url("../blocks/resources/__link/resources__link.css");
 
 /* Секция footer */
 @import url("../blocks/footer/footer.css");
